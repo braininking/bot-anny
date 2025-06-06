@@ -17,9 +17,9 @@ NOME_RECEBEDOR_ESPERADO = "Wandeson Conceicao dos Santos"
 LINK_GRUPO = "https://t.me/+eG1u4tHDvzRkYWNh"
 
 # --- CAMINHOS DOS PROGRAMAS ---
-CAMINHO_TESSERACT = r'C:\Users\Wanderson\AppData\Local\Programs\Tesseract-OCR\tesseract.exe'
+CAMINHO_TESSERACT = r'/usr/bin/tesseract'
 # ATENÇÃO: Coloque aqui o caminho para a pasta bin do Poppler que você extraiu
-CAMINHO_POPPLER = r'C:\poppler-24.08.0\Library\bin' 
+CAMINHO_POPPLER = r'/usr/bin' 
 
 # --- CONFIGURAÇÃO BÁSICA ---
 logging.basicConfig(
